@@ -2,14 +2,14 @@ import * as firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
 
-const config = {
-  apiKey: "AIzaSyBSZ7NUCTYQA7wQP510iXuX0pZz-E1zJkY",
-  authDomain: "authentication-b6f37.firebaseapp.com",
-  databaseURL: "https://authentication-b6f37.firebaseio.com",
-  projectId: "authentication-b6f37",
-  storageBucket: "",
-  messagingSenderId: "780615393858",
-  appId: "1:780615393858:web:67c2a797d096e5516483db"
+const config =  {
+  apiKey: "AIzaSyBGgqxi6JJzP5VWJijVyYEWnFi0S0jT2-Y",
+  authDomain: "health-tracker-d4cf0.firebaseapp.com",
+  databaseURL: "https://health-tracker-d4cf0.firebaseio.com",
+  projectId: "health-tracker-d4cf0",
+  storageBucket: "health-tracker-d4cf0.appspot.com",
+  messagingSenderId: "970844094577",
+  appId: "1:970844094577:web:5c3b85a7c019b3e2dadbd0"
 };
 
 firebase.initializeApp(config);
