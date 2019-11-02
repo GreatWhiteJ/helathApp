@@ -9,5 +9,5 @@ script:
 deploy:
   skip_cleanup: true
   provider: firebase
-  token: FIREBASE_TOKEN
-  project: "health-tracker-d4cf0",
+  token: $FIREBASE_TOKEN
+  project: "health-tracker-d4cf0"
